@@ -1,0 +1,45 @@
+.custom-button{
+    min-width: 165px;
+    width: auto;
+    height: 50px;
+    padding: 0 35px 0 35px;
+    letter-spacing: 0.5px;
+    line-height:50px;
+    text-transform: uppercase;
+    border:none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+
+
+&:hover{
+    background-color: white;
+    color: #000;
+    border:1px solid black
+}
+
+&.google-sign-in{
+    background-color:#4285f4;
+    color: white;
+
+    &:hover{
+        background-color:maroon;
+        border:none
+    }
+}
+&.inverted{
+background-color:white;
+color: #000;
+border:1px solid black;
+
+
+&:hover{
+    background-color:black;
+    color: white;
+    border:none
+  }
+     }
+}
